@@ -84,8 +84,11 @@ const Login = () => {
                         <p>Demo Credentials:</p>
                         <div className="mt-2 space-x-2">
                             <span className="bg-slate-100 px-2 py-1 rounded">admin@school.com /1234567890 </span>
+                        </br>
                             <span className="bg-slate-100 px-2 py-1 rounded">mostafa@school.com/1234567890</span>
+                    </br>
                             <span className="bg-slate-100 px-2 py-1 rounded">kamal@school.com/1234567890</span>
+                </br>
                         </div>
                     </div>
                 </form>

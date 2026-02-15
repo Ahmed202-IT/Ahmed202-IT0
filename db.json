@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "id": "admin1",
+      "name": "admin",
+      "email": "admin@school.com",
+      "role": "admin",
+      "password": "1234567890"
+    },
+    {
+      "id": "teacher1",
+      "name": "Mr.yassine",
+      "email": "yassine@school.com",
+      "role": "teacher",
+      "password": "1234567890",
+      "subject": "Back-end"
+    },
+    {
+      "id": "teacher2",
+      "name": "Ms. Mostafa",
+      "email": "mostafa@school.com",
+      "role": "teacher",
+      "password": "1234567890",
+      "subject": "Cloud"
+    },
+    {
+      "id": "student1",
+      "name": "Fahmi ali",
+      "email": "fahmi@school.com",
+      "role": "student",
+      "password": "1234567890",
+      "grade": "10th",
+      "age": 16,
+      "status": "Active"
+    },
+    {
+      "id": "student2",
+      "name": "Rami kamal",
+      "email": "kamal@school.com",
+      "role": "student",
+      "password": "1234567890",
+      "grade": "11th",
+      "age": 17,
+      "status": "Active"
+    },
+    {
+      "id": "student3",
+      "name": "Mohamed hafidi",
+      "email": "mohamed@school.com",
+      "role": "student",
+      "password": "1234567890",
+      "grade": "9th",
+      "age": 15,
+      "status": "Inactive"
+    },
+    {
+      "id": "315f",
+      "name": "samir moka",
+      "grade": "12th",
+      "age": "20",
+      "status": "Active",
+      "role": "student"
+    }
+  ],
+  "courses": [
+    {
+      "id": "Laravel101",
+      "name": "Introduction to Laravel",
+      "teacherId": "teacher1",
+      "gradeLevel": "10th",
+      "schedule": "Mon/Wed 10:00 AM"
+    },
+    {
+      "id": "Cloud101",
+      "name": "Introduction to Cloud",
+      "teacherId": "teacher2",
+      "gradeLevel": "11th",
+      "schedule": "Tue/Thu 11:30 AM"
+    },
+    {
+      "id": "02ea",
+      "name": "javascript",
+      "teacherId": "teacher2",
+      "gradeLevel": "",
+      "schedule": "9:00AM"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "enr1",
+      "studentId": "student1",
+      "courseId": "Laravel101"
+    },
+    {
+      "id": "enr2",
+      "studentId": "student2",
+      "courseId": "Cloud101"
+    }
+  ],
+  "grades": [
+    {
+      "id": "gr1",
+      "studentId": "student1",
+      "courseId": "Laravel101",
+      "score": 85,
+      "maxScore": 100,
+      "type": "Midterm"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att1",
+      "studentId": "student1",
+      "courseId": "Laravel101",
+      "date": "2023-10-26",
+      "status": "Present"
+    },
+    {
+      "id": "att2",
+      "studentId": "student2",
+      "courseId": "Cloud101",
+      "date": "2023-10-26",
+      "status": "Absent"
+    }
+  ]
+}
